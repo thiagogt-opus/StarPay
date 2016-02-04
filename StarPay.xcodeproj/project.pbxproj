@@ -16,6 +16,7 @@
 		B6EC0D7D1C62BAF90089D205 /* StarPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D7C1C62BAF90089D205 /* StarPayTests.m */; };
 		B6EC0D881C62BAF90089D205 /* StarPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D871C62BAF90089D205 /* StarPayUITests.m */; };
 		B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D951C62C14E0089D205 /* .travis.yml */; };
+		B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */; };
 		EF1960292C695F1A13D98A65 /* libPods-StarPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		B6EC0D871C62BAF90089D205 /* StarPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarPayUITests.m; sourceTree = "<group>"; };
 		B6EC0D891C62BAF90089D205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6EC0D951C62C14E0089D205 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 		B6EC0D561C62BAF90089D205 = {
 			isa = PBXGroup;
 			children = (
+				B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */,
 				B6EC0D951C62C14E0089D205 /* .travis.yml */,
 				B6EC0D611C62BAF90089D205 /* StarPay */,
 				B6EC0D7B1C62BAF90089D205 /* StarPayTests */,
@@ -237,6 +240,7 @@
 				TargetAttributes = {
 					B6EC0D5E1C62BAF90089D205 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6KBUHP7MVP;
 					};
 					B6EC0D771C62BAF90089D205 = {
 						CreatedOnToolsVersion = 7.2;
@@ -275,6 +279,7 @@
 			files = (
 				B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */,
 				B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */,
+				B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */,
 				B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */,
 				B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */,
 			);
@@ -491,9 +496,12 @@
 			baseConfigurationReference = 9AD6E8C7773034AACE0F6B39 /* Pods-StarPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thiago  Gomes Toledo (6U4YEVUXAT)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StarPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.StarPay";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.starpay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -503,9 +511,12 @@
 			baseConfigurationReference = CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thiago  Gomes Toledo (6U4YEVUXAT)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StarPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.StarPay";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.starpay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
