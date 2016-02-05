@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B6EC0D641C62BAF90089D205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D631C62BAF90089D205 /* main.m */; };
 		B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D661C62BAF90089D205 /* AppDelegate.m */; };
-		B6EC0D6A1C62BAF90089D205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D691C62BAF90089D205 /* ViewController.m */; };
 		B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D6B1C62BAF90089D205 /* Main.storyboard */; };
 		B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */; };
 		B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,31 @@
 		B6EC0D881C62BAF90089D205 /* StarPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D871C62BAF90089D205 /* StarPayUITests.m */; };
 		B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D951C62C14E0089D205 /* .travis.yml */; };
 		B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */; };
+		B6EC0DBF1C64BF550089D205 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0DBE1C64BF550089D205 /* MainVC.m */; };
+		B6EC0DFB1C64D7130089D205 /* aprovada.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC21C64D7130089D205 /* aprovada.png */; };
+		B6EC0DFC1C64D7130089D205 /* bang.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC31C64D7130089D205 /* bang.png */; };
+		B6EC0DFD1C64D7130089D205 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC41C64D7130089D205 /* bluetooth.png */; };
+		B6EC0DFE1C64D7130089D205 /* cartao.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC51C64D7130089D205 /* cartao.png */; };
+		B6EC0DFF1C64D7130089D205 /* carteira.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC61C64D7130089D205 /* carteira.png */; };
+		B6EC0E001C64D7130089D205 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC71C64D7130089D205 /* checkbox.png */; };
+		B6EC0E011C64D7130089D205 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC81C64D7130089D205 /* checkbox_checked.png */; };
+		B6EC0E021C64D7130089D205 /* confirmada.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC91C64D7130089D205 /* confirmada.png */; };
+		B6EC0E031C64D7130089D205 /* credito.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCA1C64D7130089D205 /* credito.png */; };
+		B6EC0E041C64D7130089D205 /* debito.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCB1C64D7130089D205 /* debito.png */; };
+		B6EC0E051C64D7130089D205 /* erro.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCC1C64D7130089D205 /* erro.png */; };
+		B6EC0E061C64D7130089D205 /* extrato.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCD1C64D7130089D205 /* extrato.png */; };
+		B6EC0E071C64D7130089D205 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCE1C64D7130089D205 /* home.png */; };
+		B6EC0E0C1C64D7130089D205 /* pagamento.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD31C64D7130089D205 /* pagamento.png */; };
+		B6EC0E0D1C64D7130089D205 /* pinpad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD41C64D7130089D205 /* pinpad.png */; };
+		B6EC0E0E1C64D7130089D205 /* pinpad_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD51C64D7130089D205 /* pinpad_dark.png */; };
+		B6EC0E0F1C64D7130089D205 /* radio_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD61C64D7130089D205 /* radio_button.png */; };
+		B6EC0E101C64D7130089D205 /* radio_button_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD71C64D7130089D205 /* radio_button_checked.png */; };
+		B6EC0E111C64D7130089D205 /* seta_amarela.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD81C64D7130089D205 /* seta_amarela.png */; };
+		B6EC0E201C64D7130089D205 /* starpay_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DE71C64D7130089D205 /* starpay_logo.png */; };
+		B6EC0E231C64D7130089D205 /* sucesso.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEA1C64D7130089D205 /* sucesso.png */; };
+		B6EC0E251C64D7130089D205 /* transacao.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEC1C64D7130089D205 /* transacao.png */; };
+		B6EC0E261C64D7130089D205 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DED1C64D7130089D205 /* x.png */; };
+		B6EC0E271C64D7130089D205 /* x_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEE1C64D7130089D205 /* x_pressed.png */; };
 		EF1960292C695F1A13D98A65 /* libPods-StarPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */; };
 /* End PBXBuildFile section */
 
@@ -38,14 +62,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51BB445E2B02B896A7813FF2 /* Pods-StarPay.calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.calabash.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.calabash.xcconfig"; sourceTree = "<group>"; };
 		9AD6E8C7773034AACE0F6B39 /* Pods-StarPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.debug.xcconfig"; sourceTree = "<group>"; };
 		AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EC0D5F1C62BAF90089D205 /* StarPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EC0D631C62BAF90089D205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6EC0D651C62BAF90089D205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6EC0D661C62BAF90089D205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6EC0D681C62BAF90089D205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6EC0D691C62BAF90089D205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6EC0D6C1C62BAF90089D205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6EC0D711C62BAF90089D205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +81,32 @@
 		B6EC0D891C62BAF90089D205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6EC0D951C62C14E0089D205 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6EC0DBD1C64BF550089D205 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		B6EC0DBE1C64BF550089D205 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		B6EC0DC21C64D7130089D205 /* aprovada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aprovada.png; path = drawable/aprovada.png; sourceTree = "<group>"; };
+		B6EC0DC31C64D7130089D205 /* bang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bang.png; path = drawable/bang.png; sourceTree = "<group>"; };
+		B6EC0DC41C64D7130089D205 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetooth.png; path = drawable/bluetooth.png; sourceTree = "<group>"; };
+		B6EC0DC51C64D7130089D205 /* cartao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cartao.png; path = drawable/cartao.png; sourceTree = "<group>"; };
+		B6EC0DC61C64D7130089D205 /* carteira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carteira.png; path = drawable/carteira.png; sourceTree = "<group>"; };
+		B6EC0DC71C64D7130089D205 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = drawable/checkbox.png; sourceTree = "<group>"; };
+		B6EC0DC81C64D7130089D205 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_checked.png; path = drawable/checkbox_checked.png; sourceTree = "<group>"; };
+		B6EC0DC91C64D7130089D205 /* confirmada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confirmada.png; path = drawable/confirmada.png; sourceTree = "<group>"; };
+		B6EC0DCA1C64D7130089D205 /* credito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = credito.png; path = drawable/credito.png; sourceTree = "<group>"; };
+		B6EC0DCB1C64D7130089D205 /* debito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = debito.png; path = drawable/debito.png; sourceTree = "<group>"; };
+		B6EC0DCC1C64D7130089D205 /* erro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = erro.png; path = drawable/erro.png; sourceTree = "<group>"; };
+		B6EC0DCD1C64D7130089D205 /* extrato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = extrato.png; path = drawable/extrato.png; sourceTree = "<group>"; };
+		B6EC0DCE1C64D7130089D205 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = drawable/home.png; sourceTree = "<group>"; };
+		B6EC0DD31C64D7130089D205 /* pagamento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pagamento.png; path = drawable/pagamento.png; sourceTree = "<group>"; };
+		B6EC0DD41C64D7130089D205 /* pinpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpad.png; path = drawable/pinpad.png; sourceTree = "<group>"; };
+		B6EC0DD51C64D7130089D205 /* pinpad_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpad_dark.png; path = drawable/pinpad_dark.png; sourceTree = "<group>"; };
+		B6EC0DD61C64D7130089D205 /* radio_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_button.png; path = drawable/radio_button.png; sourceTree = "<group>"; };
+		B6EC0DD71C64D7130089D205 /* radio_button_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_button_checked.png; path = drawable/radio_button_checked.png; sourceTree = "<group>"; };
+		B6EC0DD81C64D7130089D205 /* seta_amarela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seta_amarela.png; path = drawable/seta_amarela.png; sourceTree = "<group>"; };
+		B6EC0DE71C64D7130089D205 /* starpay_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starpay_logo.png; path = drawable/starpay_logo.png; sourceTree = "<group>"; };
+		B6EC0DEA1C64D7130089D205 /* sucesso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sucesso.png; path = drawable/sucesso.png; sourceTree = "<group>"; };
+		B6EC0DEC1C64D7130089D205 /* transacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transacao.png; path = drawable/transacao.png; sourceTree = "<group>"; };
+		B6EC0DED1C64D7130089D205 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = drawable/x.png; sourceTree = "<group>"; };
+		B6EC0DEE1C64D7130089D205 /* x_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x_pressed.png; path = drawable/x_pressed.png; sourceTree = "<group>"; };
 		CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +141,7 @@
 			children = (
 				9AD6E8C7773034AACE0F6B39 /* Pods-StarPay.debug.xcconfig */,
 				CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */,
+				51BB445E2B02B896A7813FF2 /* Pods-StarPay.calabash.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -110,6 +160,7 @@
 				B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */,
 				B6EC0D951C62C14E0089D205 /* .travis.yml */,
 				B6EC0D611C62BAF90089D205 /* StarPay */,
+				B6EC0DC01C64D7130089D205 /* imagens */,
 				B6EC0D7B1C62BAF90089D205 /* StarPayTests */,
 				B6EC0D861C62BAF90089D205 /* StarPayUITests */,
 				B6EC0D601C62BAF90089D205 /* Products */,
@@ -131,14 +182,9 @@
 		B6EC0D611C62BAF90089D205 /* StarPay */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC0D9D1C64BA810089D205 /* Controllers */,
 				B6EC0D651C62BAF90089D205 /* AppDelegate.h */,
 				B6EC0D661C62BAF90089D205 /* AppDelegate.m */,
-				B6EC0D681C62BAF90089D205 /* ViewController.h */,
-				B6EC0D691C62BAF90089D205 /* ViewController.m */,
-				B6EC0D6B1C62BAF90089D205 /* Main.storyboard */,
-				B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */,
-				B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */,
-				B6EC0D731C62BAF90089D205 /* Info.plist */,
 				B6EC0D621C62BAF90089D205 /* Supporting Files */,
 			);
 			path = StarPay;
@@ -147,6 +193,10 @@
 		B6EC0D621C62BAF90089D205 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */,
+				B6EC0D731C62BAF90089D205 /* Info.plist */,
+				B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */,
+				B6EC0D6B1C62BAF90089D205 /* Main.storyboard */,
 				B6EC0D631C62BAF90089D205 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -168,6 +218,47 @@
 				B6EC0D891C62BAF90089D205 /* Info.plist */,
 			);
 			path = StarPayUITests;
+			sourceTree = "<group>";
+		};
+		B6EC0D9D1C64BA810089D205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0DBD1C64BF550089D205 /* MainVC.h */,
+				B6EC0DBE1C64BF550089D205 /* MainVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6EC0DC01C64D7130089D205 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0DC21C64D7130089D205 /* aprovada.png */,
+				B6EC0DC31C64D7130089D205 /* bang.png */,
+				B6EC0DC41C64D7130089D205 /* bluetooth.png */,
+				B6EC0DC51C64D7130089D205 /* cartao.png */,
+				B6EC0DC61C64D7130089D205 /* carteira.png */,
+				B6EC0DC71C64D7130089D205 /* checkbox.png */,
+				B6EC0DC81C64D7130089D205 /* checkbox_checked.png */,
+				B6EC0DC91C64D7130089D205 /* confirmada.png */,
+				B6EC0DCA1C64D7130089D205 /* credito.png */,
+				B6EC0DCB1C64D7130089D205 /* debito.png */,
+				B6EC0DCC1C64D7130089D205 /* erro.png */,
+				B6EC0DCD1C64D7130089D205 /* extrato.png */,
+				B6EC0DCE1C64D7130089D205 /* home.png */,
+				B6EC0DD31C64D7130089D205 /* pagamento.png */,
+				B6EC0DD41C64D7130089D205 /* pinpad.png */,
+				B6EC0DD51C64D7130089D205 /* pinpad_dark.png */,
+				B6EC0DD61C64D7130089D205 /* radio_button.png */,
+				B6EC0DD71C64D7130089D205 /* radio_button_checked.png */,
+				B6EC0DD81C64D7130089D205 /* seta_amarela.png */,
+				B6EC0DE71C64D7130089D205 /* starpay_logo.png */,
+				B6EC0DEA1C64D7130089D205 /* sucesso.png */,
+				B6EC0DEC1C64D7130089D205 /* transacao.png */,
+				B6EC0DED1C64D7130089D205 /* x.png */,
+				B6EC0DEE1C64D7130089D205 /* x_pressed.png */,
+			);
+			name = imagens;
+			path = StarPay/imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +368,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC0E031C64D7130089D205 /* credito.png in Resources */,
+				B6EC0E011C64D7130089D205 /* checkbox_checked.png in Resources */,
+				B6EC0E201C64D7130089D205 /* starpay_logo.png in Resources */,
+				B6EC0E071C64D7130089D205 /* home.png in Resources */,
 				B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */,
+				B6EC0E051C64D7130089D205 /* erro.png in Resources */,
 				B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */,
+				B6EC0E231C64D7130089D205 /* sucesso.png in Resources */,
+				B6EC0E0C1C64D7130089D205 /* pagamento.png in Resources */,
+				B6EC0DFE1C64D7130089D205 /* cartao.png in Resources */,
+				B6EC0E0D1C64D7130089D205 /* pinpad.png in Resources */,
 				B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */,
+				B6EC0E001C64D7130089D205 /* checkbox.png in Resources */,
+				B6EC0E021C64D7130089D205 /* confirmada.png in Resources */,
+				B6EC0DFF1C64D7130089D205 /* carteira.png in Resources */,
+				B6EC0E0F1C64D7130089D205 /* radio_button.png in Resources */,
+				B6EC0E251C64D7130089D205 /* transacao.png in Resources */,
+				B6EC0E041C64D7130089D205 /* debito.png in Resources */,
+				B6EC0DFB1C64D7130089D205 /* aprovada.png in Resources */,
+				B6EC0E271C64D7130089D205 /* x_pressed.png in Resources */,
+				B6EC0E061C64D7130089D205 /* extrato.png in Resources */,
+				B6EC0E0E1C64D7130089D205 /* pinpad_dark.png in Resources */,
 				B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */,
+				B6EC0E101C64D7130089D205 /* radio_button_checked.png in Resources */,
+				B6EC0E111C64D7130089D205 /* seta_amarela.png in Resources */,
+				B6EC0DFC1C64D7130089D205 /* bang.png in Resources */,
+				B6EC0DFD1C64D7130089D205 /* bluetooth.png in Resources */,
+				B6EC0E261C64D7130089D205 /* x.png in Resources */,
 				B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6EC0D6A1C62BAF90089D205 /* ViewController.m in Sources */,
+				B6EC0DBF1C64BF550089D205 /* MainVC.m in Sources */,
 				B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */,
 				B6EC0D641C62BAF90089D205 /* main.m in Sources */,
 			);
@@ -501,6 +616,63 @@
 				INFOPLIST_FILE = StarPay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"GGLAnalytics\"",
+					"-l\"GGLCore\"",
+					"-l\"GSDK_Overload\"",
+					"-l\"GTMSessionFetcher_core\"",
+					"-l\"GTMSessionFetcher_full\"",
+					"-l\"GTMStackTrace\"",
+					"-l\"GTM_AddressBook\"",
+					"-l\"GTM_DebugUtils\"",
+					"-l\"GTM_GTMURLBuilder\"",
+					"-l\"GTM_KVO\"",
+					"-l\"GTM_NSData+zlib\"",
+					"-l\"GTM_NSDictionary+URLArguments\"",
+					"-l\"GTM_NSScannerJSON\"",
+					"-l\"GTM_NSStringHTML\"",
+					"-l\"GTM_NSStringXML\"",
+					"-l\"GTM_Regex\"",
+					"-l\"GTM_RoundedRectPath\"",
+					"-l\"GTM_StringEncoding\"",
+					"-l\"GTM_SystemVersion\"",
+					"-l\"GTM_UIFont+LineHeight\"",
+					"-l\"GTM_core\"",
+					"-l\"GTM_iPhone\"",
+					"-l\"GoogleAnalytics\"",
+					"-l\"JSONModel\"",
+					"-l\"ProtocolBuffers\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-force_load",
+					"$(PODS_ROOT)/GoogleUtilities/Libraries/libGTM_NSData+zlib.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.starpay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +688,63 @@
 				INFOPLIST_FILE = StarPay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"GGLAnalytics\"",
+					"-l\"GGLCore\"",
+					"-l\"GSDK_Overload\"",
+					"-l\"GTMSessionFetcher_core\"",
+					"-l\"GTMSessionFetcher_full\"",
+					"-l\"GTMStackTrace\"",
+					"-l\"GTM_AddressBook\"",
+					"-l\"GTM_DebugUtils\"",
+					"-l\"GTM_GTMURLBuilder\"",
+					"-l\"GTM_KVO\"",
+					"-l\"GTM_NSData+zlib\"",
+					"-l\"GTM_NSDictionary+URLArguments\"",
+					"-l\"GTM_NSScannerJSON\"",
+					"-l\"GTM_NSStringHTML\"",
+					"-l\"GTM_NSStringXML\"",
+					"-l\"GTM_Regex\"",
+					"-l\"GTM_RoundedRectPath\"",
+					"-l\"GTM_StringEncoding\"",
+					"-l\"GTM_SystemVersion\"",
+					"-l\"GTM_UIFont+LineHeight\"",
+					"-l\"GTM_core\"",
+					"-l\"GTM_iPhone\"",
+					"-l\"GoogleAnalytics\"",
+					"-l\"JSONModel\"",
+					"-l\"ProtocolBuffers\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-force_load",
+					"$(PODS_ROOT)/GoogleUtilities/Libraries/libGTM_NSData+zlib.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.starpay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -569,6 +798,145 @@
 			};
 			name = Release;
 		};
+		B6EC0D991C6382DB0089D205 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Calabash;
+		};
+		B6EC0D9A1C6382DB0089D205 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BB445E2B02B896A7813FF2 /* Pods-StarPay.calabash.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thiago  Gomes Toledo (6U4YEVUXAT)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = StarPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"GGLAnalytics\"",
+					"-l\"GGLCore\"",
+					"-l\"GSDK_Overload\"",
+					"-l\"GTMSessionFetcher_core\"",
+					"-l\"GTMSessionFetcher_full\"",
+					"-l\"GTMStackTrace\"",
+					"-l\"GTM_AddressBook\"",
+					"-l\"GTM_DebugUtils\"",
+					"-l\"GTM_GTMURLBuilder\"",
+					"-l\"GTM_KVO\"",
+					"-l\"GTM_NSData+zlib\"",
+					"-l\"GTM_NSDictionary+URLArguments\"",
+					"-l\"GTM_NSScannerJSON\"",
+					"-l\"GTM_NSStringHTML\"",
+					"-l\"GTM_NSStringXML\"",
+					"-l\"GTM_Regex\"",
+					"-l\"GTM_RoundedRectPath\"",
+					"-l\"GTM_StringEncoding\"",
+					"-l\"GTM_SystemVersion\"",
+					"-l\"GTM_UIFont+LineHeight\"",
+					"-l\"GTM_core\"",
+					"-l\"GTM_iPhone\"",
+					"-l\"GoogleAnalytics\"",
+					"-l\"JSONModel\"",
+					"-l\"ProtocolBuffers\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-force_load",
+					"$(PODS_ROOT)/GoogleUtilities/Libraries/libGTM_NSData+zlib.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.starpay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Calabash;
+		};
+		B6EC0D9B1C6382DB0089D205 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.StarPayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarPay.app/StarPay";
+			};
+			name = Calabash;
+		};
+		B6EC0D9C1C6382DB0089D205 /* Calabash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.opus-software.StarPayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Calabash;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,6 +944,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EC0D8A1C62BAF90089D205 /* Debug */,
+				B6EC0D991C6382DB0089D205 /* Calabash */,
 				B6EC0D8B1C62BAF90089D205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -585,6 +954,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EC0D8D1C62BAF90089D205 /* Debug */,
+				B6EC0D9A1C6382DB0089D205 /* Calabash */,
 				B6EC0D8E1C62BAF90089D205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -594,6 +964,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EC0D901C62BAF90089D205 /* Debug */,
+				B6EC0D9B1C6382DB0089D205 /* Calabash */,
 				B6EC0D911C62BAF90089D205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -603,6 +974,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6EC0D931C62BAF90089D205 /* Debug */,
+				B6EC0D9C1C6382DB0089D205 /* Calabash */,
 				B6EC0D941C62BAF90089D205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

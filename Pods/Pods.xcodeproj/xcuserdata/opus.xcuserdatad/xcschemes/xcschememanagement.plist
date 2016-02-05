@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AMSlideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09FA060F1A0492FB25232F489AC4E573</key>
+		<key>3AF3E16D7403F98FD55D46654FC092EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>4523E86A925DD29CBBB2C8DE479BDF9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C445D565F7DEE2F973E9B8F0CEBCD63F</key>
+		<key>787FE40D2549FE4E45186C45A0D13266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0E99EDC2FAA91D038248C021E8FCF66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
