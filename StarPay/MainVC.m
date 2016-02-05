@@ -1,20 +1,20 @@
 //
-//  ViewController.m
+//  MainVC.m
 //  StarPay
 //
-//  Created by Opus Software on 2/3/16.
+//  Created by Opus Software on 2/5/16.
 //  Copyright © 2016 Opus Software. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainVC.h"
 
 #import <Google/Analytics.h>
 
-@interface ViewController ()
+@interface MainVC ()
 
 @end
 
-@implementation ViewController
+@implementation MainVC
 
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -35,12 +35,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(NSString *)segueIdentifierForIndexPathInRightMenu:(NSIndexPath *)indexPath{
+    NSString* identifier;
+    switch (indexPath.row) {
+        case 0:
+            identifier = @"alterarSenhaSegue";
+            break;
+            
+        case 1:
+            identifier = @"finalizarSessaoSegue";
+            break;
+    }
+    
+    return identifier;
+    
+    
+    
+}
+
+- (NSIndexPath *)initialIndexPathForLeftMenu
+{
+    return [NSIndexPath indexPathForRow:0 inSection:0];
+}
+
+
 
 @end

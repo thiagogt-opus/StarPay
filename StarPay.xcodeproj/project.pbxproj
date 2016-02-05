@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B6EC0D641C62BAF90089D205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D631C62BAF90089D205 /* main.m */; };
 		B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D661C62BAF90089D205 /* AppDelegate.m */; };
-		B6EC0D6A1C62BAF90089D205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D691C62BAF90089D205 /* ViewController.m */; };
 		B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D6B1C62BAF90089D205 /* Main.storyboard */; };
 		B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */; };
 		B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,31 @@
 		B6EC0D881C62BAF90089D205 /* StarPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D871C62BAF90089D205 /* StarPayUITests.m */; };
 		B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D951C62C14E0089D205 /* .travis.yml */; };
 		B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */; };
+		B6EC0DBF1C64BF550089D205 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0DBE1C64BF550089D205 /* MainVC.m */; };
+		B6EC0DFB1C64D7130089D205 /* aprovada.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC21C64D7130089D205 /* aprovada.png */; };
+		B6EC0DFC1C64D7130089D205 /* bang.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC31C64D7130089D205 /* bang.png */; };
+		B6EC0DFD1C64D7130089D205 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC41C64D7130089D205 /* bluetooth.png */; };
+		B6EC0DFE1C64D7130089D205 /* cartao.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC51C64D7130089D205 /* cartao.png */; };
+		B6EC0DFF1C64D7130089D205 /* carteira.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC61C64D7130089D205 /* carteira.png */; };
+		B6EC0E001C64D7130089D205 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC71C64D7130089D205 /* checkbox.png */; };
+		B6EC0E011C64D7130089D205 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC81C64D7130089D205 /* checkbox_checked.png */; };
+		B6EC0E021C64D7130089D205 /* confirmada.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DC91C64D7130089D205 /* confirmada.png */; };
+		B6EC0E031C64D7130089D205 /* credito.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCA1C64D7130089D205 /* credito.png */; };
+		B6EC0E041C64D7130089D205 /* debito.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCB1C64D7130089D205 /* debito.png */; };
+		B6EC0E051C64D7130089D205 /* erro.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCC1C64D7130089D205 /* erro.png */; };
+		B6EC0E061C64D7130089D205 /* extrato.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCD1C64D7130089D205 /* extrato.png */; };
+		B6EC0E071C64D7130089D205 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DCE1C64D7130089D205 /* home.png */; };
+		B6EC0E0C1C64D7130089D205 /* pagamento.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD31C64D7130089D205 /* pagamento.png */; };
+		B6EC0E0D1C64D7130089D205 /* pinpad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD41C64D7130089D205 /* pinpad.png */; };
+		B6EC0E0E1C64D7130089D205 /* pinpad_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD51C64D7130089D205 /* pinpad_dark.png */; };
+		B6EC0E0F1C64D7130089D205 /* radio_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD61C64D7130089D205 /* radio_button.png */; };
+		B6EC0E101C64D7130089D205 /* radio_button_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD71C64D7130089D205 /* radio_button_checked.png */; };
+		B6EC0E111C64D7130089D205 /* seta_amarela.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DD81C64D7130089D205 /* seta_amarela.png */; };
+		B6EC0E201C64D7130089D205 /* starpay_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DE71C64D7130089D205 /* starpay_logo.png */; };
+		B6EC0E231C64D7130089D205 /* sucesso.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEA1C64D7130089D205 /* sucesso.png */; };
+		B6EC0E251C64D7130089D205 /* transacao.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEC1C64D7130089D205 /* transacao.png */; };
+		B6EC0E261C64D7130089D205 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DED1C64D7130089D205 /* x.png */; };
+		B6EC0E271C64D7130089D205 /* x_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEE1C64D7130089D205 /* x_pressed.png */; };
 		EF1960292C695F1A13D98A65 /* libPods-StarPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +69,6 @@
 		B6EC0D631C62BAF90089D205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6EC0D651C62BAF90089D205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6EC0D661C62BAF90089D205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6EC0D681C62BAF90089D205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6EC0D691C62BAF90089D205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6EC0D6C1C62BAF90089D205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6EC0D711C62BAF90089D205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +81,32 @@
 		B6EC0D891C62BAF90089D205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6EC0D951C62C14E0089D205 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6EC0DBD1C64BF550089D205 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		B6EC0DBE1C64BF550089D205 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		B6EC0DC21C64D7130089D205 /* aprovada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aprovada.png; path = drawable/aprovada.png; sourceTree = "<group>"; };
+		B6EC0DC31C64D7130089D205 /* bang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bang.png; path = drawable/bang.png; sourceTree = "<group>"; };
+		B6EC0DC41C64D7130089D205 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetooth.png; path = drawable/bluetooth.png; sourceTree = "<group>"; };
+		B6EC0DC51C64D7130089D205 /* cartao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cartao.png; path = drawable/cartao.png; sourceTree = "<group>"; };
+		B6EC0DC61C64D7130089D205 /* carteira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carteira.png; path = drawable/carteira.png; sourceTree = "<group>"; };
+		B6EC0DC71C64D7130089D205 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox.png; path = drawable/checkbox.png; sourceTree = "<group>"; };
+		B6EC0DC81C64D7130089D205 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_checked.png; path = drawable/checkbox_checked.png; sourceTree = "<group>"; };
+		B6EC0DC91C64D7130089D205 /* confirmada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confirmada.png; path = drawable/confirmada.png; sourceTree = "<group>"; };
+		B6EC0DCA1C64D7130089D205 /* credito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = credito.png; path = drawable/credito.png; sourceTree = "<group>"; };
+		B6EC0DCB1C64D7130089D205 /* debito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = debito.png; path = drawable/debito.png; sourceTree = "<group>"; };
+		B6EC0DCC1C64D7130089D205 /* erro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = erro.png; path = drawable/erro.png; sourceTree = "<group>"; };
+		B6EC0DCD1C64D7130089D205 /* extrato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = extrato.png; path = drawable/extrato.png; sourceTree = "<group>"; };
+		B6EC0DCE1C64D7130089D205 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = drawable/home.png; sourceTree = "<group>"; };
+		B6EC0DD31C64D7130089D205 /* pagamento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pagamento.png; path = drawable/pagamento.png; sourceTree = "<group>"; };
+		B6EC0DD41C64D7130089D205 /* pinpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpad.png; path = drawable/pinpad.png; sourceTree = "<group>"; };
+		B6EC0DD51C64D7130089D205 /* pinpad_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpad_dark.png; path = drawable/pinpad_dark.png; sourceTree = "<group>"; };
+		B6EC0DD61C64D7130089D205 /* radio_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_button.png; path = drawable/radio_button.png; sourceTree = "<group>"; };
+		B6EC0DD71C64D7130089D205 /* radio_button_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radio_button_checked.png; path = drawable/radio_button_checked.png; sourceTree = "<group>"; };
+		B6EC0DD81C64D7130089D205 /* seta_amarela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seta_amarela.png; path = drawable/seta_amarela.png; sourceTree = "<group>"; };
+		B6EC0DE71C64D7130089D205 /* starpay_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starpay_logo.png; path = drawable/starpay_logo.png; sourceTree = "<group>"; };
+		B6EC0DEA1C64D7130089D205 /* sucesso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sucesso.png; path = drawable/sucesso.png; sourceTree = "<group>"; };
+		B6EC0DEC1C64D7130089D205 /* transacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transacao.png; path = drawable/transacao.png; sourceTree = "<group>"; };
+		B6EC0DED1C64D7130089D205 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = drawable/x.png; sourceTree = "<group>"; };
+		B6EC0DEE1C64D7130089D205 /* x_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x_pressed.png; path = drawable/x_pressed.png; sourceTree = "<group>"; };
 		CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +160,7 @@
 				B6EC0D971C62DCCF0089D205 /* GoogleService-Info.plist */,
 				B6EC0D951C62C14E0089D205 /* .travis.yml */,
 				B6EC0D611C62BAF90089D205 /* StarPay */,
+				B6EC0DC01C64D7130089D205 /* imagens */,
 				B6EC0D7B1C62BAF90089D205 /* StarPayTests */,
 				B6EC0D861C62BAF90089D205 /* StarPayUITests */,
 				B6EC0D601C62BAF90089D205 /* Products */,
@@ -133,14 +182,9 @@
 		B6EC0D611C62BAF90089D205 /* StarPay */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC0D9D1C64BA810089D205 /* Controllers */,
 				B6EC0D651C62BAF90089D205 /* AppDelegate.h */,
 				B6EC0D661C62BAF90089D205 /* AppDelegate.m */,
-				B6EC0D681C62BAF90089D205 /* ViewController.h */,
-				B6EC0D691C62BAF90089D205 /* ViewController.m */,
-				B6EC0D6B1C62BAF90089D205 /* Main.storyboard */,
-				B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */,
-				B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */,
-				B6EC0D731C62BAF90089D205 /* Info.plist */,
 				B6EC0D621C62BAF90089D205 /* Supporting Files */,
 			);
 			path = StarPay;
@@ -149,6 +193,10 @@
 		B6EC0D621C62BAF90089D205 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */,
+				B6EC0D731C62BAF90089D205 /* Info.plist */,
+				B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */,
+				B6EC0D6B1C62BAF90089D205 /* Main.storyboard */,
 				B6EC0D631C62BAF90089D205 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,6 +218,47 @@
 				B6EC0D891C62BAF90089D205 /* Info.plist */,
 			);
 			path = StarPayUITests;
+			sourceTree = "<group>";
+		};
+		B6EC0D9D1C64BA810089D205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0DBD1C64BF550089D205 /* MainVC.h */,
+				B6EC0DBE1C64BF550089D205 /* MainVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6EC0DC01C64D7130089D205 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0DC21C64D7130089D205 /* aprovada.png */,
+				B6EC0DC31C64D7130089D205 /* bang.png */,
+				B6EC0DC41C64D7130089D205 /* bluetooth.png */,
+				B6EC0DC51C64D7130089D205 /* cartao.png */,
+				B6EC0DC61C64D7130089D205 /* carteira.png */,
+				B6EC0DC71C64D7130089D205 /* checkbox.png */,
+				B6EC0DC81C64D7130089D205 /* checkbox_checked.png */,
+				B6EC0DC91C64D7130089D205 /* confirmada.png */,
+				B6EC0DCA1C64D7130089D205 /* credito.png */,
+				B6EC0DCB1C64D7130089D205 /* debito.png */,
+				B6EC0DCC1C64D7130089D205 /* erro.png */,
+				B6EC0DCD1C64D7130089D205 /* extrato.png */,
+				B6EC0DCE1C64D7130089D205 /* home.png */,
+				B6EC0DD31C64D7130089D205 /* pagamento.png */,
+				B6EC0DD41C64D7130089D205 /* pinpad.png */,
+				B6EC0DD51C64D7130089D205 /* pinpad_dark.png */,
+				B6EC0DD61C64D7130089D205 /* radio_button.png */,
+				B6EC0DD71C64D7130089D205 /* radio_button_checked.png */,
+				B6EC0DD81C64D7130089D205 /* seta_amarela.png */,
+				B6EC0DE71C64D7130089D205 /* starpay_logo.png */,
+				B6EC0DEA1C64D7130089D205 /* sucesso.png */,
+				B6EC0DEC1C64D7130089D205 /* transacao.png */,
+				B6EC0DED1C64D7130089D205 /* x.png */,
+				B6EC0DEE1C64D7130089D205 /* x_pressed.png */,
+			);
+			name = imagens;
+			path = StarPay/imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +368,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC0E031C64D7130089D205 /* credito.png in Resources */,
+				B6EC0E011C64D7130089D205 /* checkbox_checked.png in Resources */,
+				B6EC0E201C64D7130089D205 /* starpay_logo.png in Resources */,
+				B6EC0E071C64D7130089D205 /* home.png in Resources */,
 				B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */,
+				B6EC0E051C64D7130089D205 /* erro.png in Resources */,
 				B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */,
+				B6EC0E231C64D7130089D205 /* sucesso.png in Resources */,
+				B6EC0E0C1C64D7130089D205 /* pagamento.png in Resources */,
+				B6EC0DFE1C64D7130089D205 /* cartao.png in Resources */,
+				B6EC0E0D1C64D7130089D205 /* pinpad.png in Resources */,
 				B6EC0D981C62DCCF0089D205 /* GoogleService-Info.plist in Resources */,
+				B6EC0E001C64D7130089D205 /* checkbox.png in Resources */,
+				B6EC0E021C64D7130089D205 /* confirmada.png in Resources */,
+				B6EC0DFF1C64D7130089D205 /* carteira.png in Resources */,
+				B6EC0E0F1C64D7130089D205 /* radio_button.png in Resources */,
+				B6EC0E251C64D7130089D205 /* transacao.png in Resources */,
+				B6EC0E041C64D7130089D205 /* debito.png in Resources */,
+				B6EC0DFB1C64D7130089D205 /* aprovada.png in Resources */,
+				B6EC0E271C64D7130089D205 /* x_pressed.png in Resources */,
+				B6EC0E061C64D7130089D205 /* extrato.png in Resources */,
+				B6EC0E0E1C64D7130089D205 /* pinpad_dark.png in Resources */,
 				B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */,
+				B6EC0E101C64D7130089D205 /* radio_button_checked.png in Resources */,
+				B6EC0E111C64D7130089D205 /* seta_amarela.png in Resources */,
+				B6EC0DFC1C64D7130089D205 /* bang.png in Resources */,
+				B6EC0DFD1C64D7130089D205 /* bluetooth.png in Resources */,
+				B6EC0E261C64D7130089D205 /* x.png in Resources */,
 				B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6EC0D6A1C62BAF90089D205 /* ViewController.m in Sources */,
+				B6EC0DBF1C64BF550089D205 /* MainVC.m in Sources */,
 				B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */,
 				B6EC0D641C62BAF90089D205 /* main.m in Sources */,
 			);
