@@ -8,12 +8,31 @@
 
 #import "AppDelegate.h"
 #import <Google/Analytics.h>
-
+#import "ColorStarPay.h"
 @interface AppDelegate ()
 
 @end
 
+
+
+
 @implementation AppDelegate
+
+
+
+-(void)customizeGlobalAppearance
+{
+    
+    [[UINavigationBar appearance] setBarTintColor: [ColorStarPay colorWithHexString:@CLR_AMARELO_STARPAY_PRIMARY]];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                           nil, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:35.0], UITextAttributeFont, nil]];
+}
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -30,6 +49,9 @@
     
     // Set a white background so that patterns are showcased.
     _window.backgroundColor = [UIColor whiteColor];
+    
+    
+    [self customizeGlobalAppearance];
     
     return YES;
     

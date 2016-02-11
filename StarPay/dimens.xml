@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Recuo do botão quando clicado -->
+    <dimen name="starpay_button_recuo_click">3dp</dimen>
+
+    <dimen name="starpay_corner_radius">6dp</dimen>
+
+    <dimen name="starpay_radio_button_border">2dp</dimen>
+    <dimen name="starpay_title_left_border_width">4dp</dimen>
+    <dimen name="starpay_title_left_border_height">35dp</dimen>
+    <dimen name="starpay_title_marginLeft">18dp</dimen>
+
+    <dimen name="starpay_login_side_margin">40dp</dimen>
+
+    <dimen name="starpay_side_margin">20dp</dimen>
+    <dimen name="starpay_padding_botao">15dp</dimen>
+
+    <dimen name="starpay_margin_bottom_logo_login">0dp</dimen>
+    <integer name="starpay_layout_weight_logo_login">2</integer>
+
+    <dimen name="starpay_padding_rodape">15dp</dimen>
+    <dimen name="starpay_margin_bottom_rodape_texto">5dp</dimen>
+    <dimen name="starpay_text_size_rodape_texto">18dp</dimen>
+    <dimen name="starpay_text_size_rodape_texto_versao">12dp</dimen>
+
+    <dimen name="starpay_margin_top_resultado_transacao_titulo">50dp</dimen>
+    <dimen name="starpay_margin_bottom_resultado_transacao_legenda">50dp</dimen>
+
+    <dimen name="starpay_text_size_info_transacao">45dp</dimen>
+
+    <dimen name="starpay_card_margin_top">20dp</dimen>
+    <dimen name="starpay_card_margin_left">20dp</dimen>
+    <dimen name="starpay_card_margin_right">20dp</dimen>
+    <dimen name="starpay_card_margin_bottom">20dp</dimen>
+
+    <dimen name="starpay_card_header_margin_left">15dp</dimen>
+    <dimen name="starpay_card_header_margin_right">10dp</dimen>
+
+    <dimen name="starpay_card_resultado_margin_left">35dp</dimen>
+    <dimen name="starpay_card_resultado_margin_right">10dp</dimen>
+
+    <dimen name="starpay_card_header_height">50dp</dimen>
+
+    <dimen name="starpay_card_button_margin_top">30dp</dimen>
+    <dimen name="starpay_card_button_margin_left">30dp</dimen>
+    <dimen name="starpay_card_button_margin_right">30dp</dimen>
+    <dimen name="starpay_card_button_margin_bottom">30dp</dimen>
+
+    <dimen name="starpay_card_button_height">50dp</dimen>
+
+    <dimen name="starpay_card_espacamento_interno">15dp</dimen>
+    <dimen name="starpay_card_espacamento_interno_grande">25dp</dimen>
+    <dimen name="starpay_card_espacamento_interno_pequeno">5dp</dimen>
+    <dimen name="starpay_tamanho_separador">1dp</dimen>
+
+    <dimen name="starpay_image_icon_size">30dp</dimen>
+    <dimen name="starpay_image_icon_size_larger">40dp</dimen>
+    <dimen name="starpay_image_icon_size_huge">80dp</dimen>
+
+    <dimen name="starpay_padding_botao_extrato">30dp</dimen>
+</resources>

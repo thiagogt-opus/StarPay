@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Starpay Mobile</string>
+    <string name="starpay">Starpay</string>
+    <string name="pagamentos">Pagamentos</string>
+    <string name="starpay_website">www.starpay.com.br</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Estes valores devem ser os mesmos que em build.gradle! -->
+    <string name="versionCode">20</string>
+    <string name="versionName">2.2.0</string>
+
+    <!-- ID de vendedor para transações com a Stone (adquirente). -->
+    <string name="STONE_PRODUCTION_KEY">116861505</string>
+
+    <string name="login">Login</string>
+    <string name="entrar_caps">ENTRAR</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="acessar_conta">ACESSAR CONTA</string>
+    <string name="salvar_senha">salvar senha</string>
+    <string name="deseja_finalizar_sessao">Deseja finalizar esta sessão?</string>
+
+    <string name="sim">Sim</string>
+    <string name="sim_caps">SIM</string>
+    <string name="nao">Não</string>
+    <string name="nao_caps">NÃO</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cancelar_caps">CANCELAR</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="confirmar_caps">CONFIRMAR</string>
+    <string name="continuar">Continuar</string>
+    <string name="continuar_caps">CONTINUAR</string>
+
+    <string name="enviando">Enviando...</string>
+    <string name="conectando">Conectando...</string>
+
+    <string name="email_vazio">Email não pode ser vazio!</string>
+    <string name="senha_vazia">Senha não pode ser vazia!</string>
+    <string name="email_senha_invalido">Email ou senha inválidos!</string>
+    <string name="senha_atual_incorreta">Senha atual incorreta!</string>
+    <string name="senha_incorreta">Senha incorreta!</string>
+    <string name="nao_foi_possivel_verifique_internet">
+        Não foi possível se comunicar com o servidor! Verifique se está conectado à Internet e tente novamente.
+    </string>
+    <string name="servidor_indisponivel">Servidor indisponível!</string>
+    <string name="verifique_internet">Verifique se está conectado à Internet e tente novamente.</string>
+
+    <string name="alterar_senha_caps">ALTERAR SENHA</string>
+    <string name="nova_senha_caps">NOVA SENHA</string>
+    <string name="nova_senha">Nova senha</string>
+    <string name="confirmar_nova_senha">Confirmar nova senha</string>
+    <string name="senha_atual">Senha atual</string>
+    <string name="senhas_devem_ser_iguais">As senhas devem ser iguais!</string>
+    <string name="senha_alterada">Senha alterada com sucesso!</string>
+
+    <string name="recuperar_senha_caps">RECUPERAR SENHA</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="enviar_caps">ENVIAR</string>
+    <string name="enviar">Enviar</string>
+    <string name="email_enviado_em_breve">
+        Email enviado com sucesso!\n\nEm breve você receberá instruções sobre como cadastrar uma nova senha.
+    </string>
+    <string name="usuario_nao_encontrado">Usuário não encontrado!</string>
+
+    <string name="transacao">Transação</string>
+
+    <string name="menu">Menu</string>
+    <string name="botao_nova_venda">nova\nvenda</string>
+    <string name="botao_lista_vendas">lista de\nvendas</string>
+    <string name="botao_extrato_pagamentos">extrato</string>
+    <string name="botao_pagamento_corrida">pagamento\ncorrida</string>
+    <string name="botao_alterar_senha">alterar\nsenha</string>
+    <string name="botao_finalizar_sessao">finalizar\nsessão</string>
+    <string name="botao_conectar_pinpad">conectar\npinpad</string>
+
+    <string name="alterar_senha">Alterar senha</string>
+    <string name="finalizar_sessao">Finalizar sessão</string>
+
+    <string name="lista_de_vendas">Lista de vendas</string>
+    <string name="aprovada">Aprovada</string>
+    <string name="pendente">Pendente</string>
+    <string name="interrompida">Interrompida</string>
+    <string name="recusada">Recusada</string>
+    <string name="cancelada">Cancelada</string>
+    <string name="confirmada">Confirmada</string>
+    <string name="paga">Paga</string>
+    <string name="cod_identificador">Cód identificador</string>
+    <string name="codigo_identificador">código identificador</string>
+    <string name="codigo_identificador_caps">CÓDIGO IDENTIFICADOR</string>
+
+    <string name="nenhum_resultado">Nenhum resultado encontrado.</string>
+    <string name="falha_de_comunicacao">Falha de comunicação!</string>
+    <string name="buscando">Buscando...</string>
+
+    <string name="sucesso">Sucesso!</string>
+    <string name="sucesso_caps">SUCESSO!</string>
+    <string name="atencao">Atenção!</string>
+    <string name="atencao_caps">ATENÇÃO!</string>
+    <string name="erro">Erro!</string>
+    <string name="erro_caps">ERRO!</string>
+    <string name="transacao_aprovada">Transação aprovada.</string>
+    <string name="transacao_interrompida">Transação interrompida.</string>
+    <string name="transacao_recusada">Transação recusada.</string>
+    <string name="voltar_ao_menu">VOLTAR AO MENU</string>
+    <string name="voltar_caps">VOLTAR</string>
+
+    <string name="valor">Valor</string>
+    <string name="valor_caps">VALOR</string>
+    <string name="valor_tipo_moeda">R$</string>
+    <string name="calculadora_ok">OK</string>
+    <string name="calculadora_backspace">C</string>
+    <string name="definir_valor_e_forma">Definir valor e forma de pagamento</string>
+    <string name="defina_uma_forma_de_pagamento">Defina uma forma de pagamento!</string>
+    <string name="opcoes_de_pagamento">Opções de pagamento</string>
+    <string name="opcoes_de_pagamento_caps">OPÇÕES DE PAGAMENTO</string>
+    <string name="debito_caps">DÉBITO</string>
+    <string name="debito">Débito</string>
+    <string name="credito_caps">CRÉDITO</string>
+    <string name="credito">Crédito</string>
+    <string name="realizar_pagamento">REALIZAR PAGAMENTO</string>
+    <string name="valor_pequeno_demais">Valor menor que o mínimo permitido!</string>
+    <string name="valor_grande_demais">Valor maior que o máximo permitido!</string>
+    <string name="valor_invalido">O valor digitado não é válido!</string>
+
+    <string name="boas_noticias_atualizacao_disponivel">Boas notícias! Há uma atualização disponível!</string>
+    <string name="atualizacao_disponivel">Atualização disponível</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="agora_nao">Agora não</string>
+
+    <string name="dispositivos_bt">Dispositivos Bluetooth</string>
+    <string name="bluetooth_deve_ativar">O Bluetooth deve ser ativado!</string>
+    <string name="bluetooth_nao_suportado">Bluetooth não suportado!</string>
+    <string name="bt_pinpad_conectado">Pinpad conectado</string>
+    <string name="conecte_pinpad">Conecte-se a um pinpad!</string>
+    <string name="bt_ja_conectado_pinpad">Já conectado a um pinpad!</string>
+    <string name="falha_iniciar_transacao">Falha ao iniciar transação!</string>
+    <string name="erro_conexao_pinpad">Erro durante a conexão com Pinpad.</string>
+    <string name="erro_pinpad_invalido">Erro durante a conexão com Pinpad: identificador inválido!</string>
+    <string name="conectando_pinpad">Criando conexao com o pinpad</string>
+
+    <string name="detalhes_da_transacao">Detalhes da transação</string>
+    <string name="comprovante">Comprovante</string>
+    <string name="comprovante_caps">COMPROVANTE</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="detalhes_caps">DETALHES</string>
+    <string name="enviar_comprovante_caps">ENVIAR COMPROVANTE</string>
+    <string name="enviar_comprovante_interrog_caps">ENVIAR COMPROVANTE?</string>
+    <string name="comprovante_enviado">Comprovante enviado com sucesso!</string>
+    <string name="falha_envio_comprovante">Falha ao enviar o comprovante!</string>
+    <string name="operacao_impossivel">Não é possível efetuar esta operação.</string>
+
+    <string name="cancelada_pelo_cliente">Cancelada pelo cliente</string>
+    <string name="cartao_inserido_incorretamente">Cartao inserido incorretamente</string>
+    <string name="operacao_invalida">Cartão incorreto ou não aceito</string>
+    <string name="conexao_pinpad_nao_detectada">Pinpad não detectado</string>
+    <string name="tarja_magnetica_cartao_com_chip">Uso incorreto de cartão com chip</string>
+    <string name="cartao_removido">Cartão removido</string>
+    <string name="conexao_pinpad_perdida">Conexão com pinpad perdida</string>
+    <string name="sem_internet">Sem internet</string>
+    <string name="timeout">O tempo expirou</string>
+    <string name="desconhecido">Desconhecido</string>
+
+    <!-- Status Splash Screen -->
+    <string name="ativando_aplicativo">Ativando aplicativo...</string>
+    <string name="check_atualizacao">Buscando atualizações...</string>
+    <string name="check_login">Verificando login...</string>
+    <string name="ativando_aplicativo_fail">Falha ao ativar aplicativo!\nVerifique sua conexão com a internet\ne tente novamente.</string>
+    <string name="tentar_novamente_caps">TENTAR NOVAMENTE</string>
+    <string name="tentar_novamente_interrog_caps">TENTAR NOVAMENTE?</string>
+
+    <!-- Conector data/hora. Exemplo de uso: "20/09/2015 às 20:30". -->
+    <string name="conector_data_hora">às</string>
+
+    <!-- Tela de Extrato e Adiantamento -->
+    <string name="extrato_de_pagamentos">Extrato de pagamentos</string>
+    <string name="total_dois_pontos">Total:</string>
+    <string name="total_a_receber">total a receber</string>
+    <string name="total_a_receber_hoje">total a receber hoje</string>
+    <string name="antecipar_pagamento_caps">ANTECIPAR PAGAMENTO</string>
+    <string name="pagamentos_futuros">Pagamentos a receber</string>
+    <string name="pagamentos_passados">Pagamentos recebidos</string>
+    <string name="total_recebido">total recebido</string>
+    <string name="antecipacao_de_pagamento">Antecipação de pagamento</string>
+    <string name="resumo_de_antecipacao_caps">RESUMO DE ANTECIPAÇÃO</string>
+    <string name="total_antecipado_caps">TOTAL ANTECIPADO</string>
+    <string name="custo_efetivo_caps">CUSTO EFETIVO</string>
+    <string name="total_a_receber_caps">TOTAL A RECEBER</string>
+    <string name="valor_a_receber_caps">VALOR A RECEBER</string>
+    <string name="nenhum_pagamento_selecionado">Nenhum pagamento selecionado.</string>
+    <string name="autorizar">Autorizar</string>
+    <string name="autorizar_caps">AUTORIZAR</string>
+    <string name="autenticacao_necessaria_para_antecipar">Para aprovar a antecipação, é necessário digitar a sua senha.</string>
+    <string name="antecipacao_realizada">Antecipação realizada com sucesso.</string>
+    <string name="custo">Custo</string>
+    <string name="valor_venda">Valor venda</string>
+    <string name="operacao_realizada">Operação realizada com sucesso.</string>
+    <string name="operacao_falhou_tente_mais_tarde">A operação falhou. Tente novamente mais tarde.</string>
+    <string name="observacao_dialog_antecipacao">O contratante tem conhecimento, aceitando e concordando com as taxas de serviços (ou taxas de descontos) praticadas pela STARPAY, decorrente da antecipação de recebíveis.</string>
+
+    <string name="nova_venda">Nova venda</string>
+    <string name="falha_tecnica">Falha técnica.</string>
+    <string name="forma_de_pagamento_caps">FORMA DE PAGAMENTO</string>
+    <string name="comprovante_de_venda">Comprovante de venda</string>
+    <string name="motivo_caps">MOTIVO</string>
+    <string name="situacao_de_venda">Situação de venda</string>
+    <string name="venda_interrompida">Venda interrompida.</string>
+    <string name="venda_recusada">Venda recusada.</string>
+    <string name="digite_email">Digite o email para envio do comprovante.</string>
+    <string name="valor_sem_antecipacao">Valor sem antecipação:</string>
+
+    <!-- Detalhes de Venda e Pagamento -->
+    <string name="detalhes_venda">Detalhes venda</string>
+    <string name="detalhes_pagamento">Detalhes pagamento</string>
+    <string name="valor_bruto">Valor bruto</string>
+    <string name="tarifa">Tarifa</string>
+    <string name="tarifa_antecipacao">Tarifa antecipação</string>
+    <string name="data_antecipacao">Data solicitação antecipação</string>
+</resources>

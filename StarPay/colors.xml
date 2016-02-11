@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CORES -->
+    <!-- Não devem ser utilizadas diretamente pelo app! -->
+    <color name="transparent">#00000000</color>
+
+    <color name="branco">#ffffff</color>
+    <color name="branco_sujo">#efefef</color>
+    <color name="branco_sujao">#e5e5e5</color>
+    <color name="gelo">#bbbbbb</color>
+    <color name="cinza_claro">#a5a4aa</color>
+    <color name="cinza">#717171</color>
+    <color name="cinza_escuro">#3a3a3a</color>
+    <color name="cinza_quase_preto">#212121</color>
+    <color name="preto">#000000</color>
+
+    <color name="verde_sucesso">#338c78</color>
+    <color name="verde_sucesso_darker">#135345</color>
+    <color name="acqua">#00bcd4</color>
+    <color name="acqua_darker">#08758c</color>
+    <color name="vermelho_alerta">#c50623</color>
+    <color name="vermelho_alerta_darker">#700408</color>
+
+    <color name="vermelho_starpay_primary">#ce243f</color>
+    <color name="vermelho_starpay_primary_darker">#90201c</color>
+    <color name="vermelho_starpay_secondary">#b21f36</color>
+
+    <color name="amarelo_starpay_primary">#fbc02d</color>
+    <color name="amarelo_starpay_primary_darker">#e1b520</color>
+    <color name="amarelo_starpay_secondary">#e1b520</color>
+    <color name="amarelo_starpay_tertiary">#c08900</color>
+
+    <!-- CORES DO TEMA -->
+    <!-- Definição das cores principais do tema - também não devem ser utilizadas diretamente! -->
+    <color name="starpay_primary">@color/amarelo_starpay_primary</color>
+    <color name="starpay_primary_darker">@color/amarelo_starpay_primary_darker</color>
+    <color name="starpay_secondary">@color/amarelo_starpay_secondary</color>
+    <color name="starpay_notification_bar">@color/amarelo_starpay_tertiary</color>
+
+    <color name="starpay_font_primary">@color/preto</color>
+    <color name="starpay_font_secondary">@color/cinza_claro</color>
+    <color name="starpay_font_darker">@color/cinza_quase_preto</color>
+    <color name="starpay_font_dark_background">@color/branco</color>
+    <color name="starpay_font_lighter">@color/cinza</color>
+    <color name="starpay_font_lightest">@color/gelo</color>
+    <color name="starpay_font_escura">@color/cinza_escuro</color>
+    <color name="starpay_font_alert">@color/preto</color>
+
+    <color name="starpay_font_error">@color/vermelho_alerta</color>
+    <color name="starpay_font_error_darker">@color/vermelho_alerta_darker</color>
+    <color name="starpay_font_success">@color/verde_sucesso</color>
+    <color name="starpay_font_success_darker">@color/verde_sucesso_darker</color>
+    <color name="starpay_font_accent">@color/acqua</color>
+    <color name="starpay_font_accent_darker">@color/acqua_darker</color>
+
+    <!-- CORES DOS ESTILOS -->
+    <!-- Cores que são usadas de fato nas Views do aplicativo. -->
+    <color name="starpay_background">@color/branco_sujo</color>
+    <color name="starpay_background_accent">@color/gelo</color>
+    <color name="starpay_background_card">@color/branco</color>
+
+    <color name="starpay_header_background">@color/starpay_primary</color>
+    <color name="starpay_header_font">@color/branco</color>
+
+    <color name="starpay_title_font">@color/starpay_primary</color>
+    <color name="starpay_subtitle_font">@color/starpay_font_primary</color>
+    <color name="starpay_footer_font">@color/starpay_font_secondary</color>
+
+    <color name="starpay_divider">@color/branco_sujo</color>
+    <color name="starpay_divider_secondary">@color/branco_sujao</color>
+
+    <color name="starpay_button_background">@color/starpay_primary</color>
+    <color name="starpay_button_pressed_background">@color/starpay_secondary</color>
+    <color name="starpay_button_focused_background">@color/starpay_primary_darker</color>
+    <color name="starpay_button_font">@color/starpay_font_dark_background</color>
+
+    <color name="starpay_calculator_button_background">@color/starpay_primary</color>
+    <color name="starpay_calculator_button_pressed_background">@color/starpay_secondary</color>
+    <color name="starpay_calculator_button_focused_background">@color/starpay_primary_darker</color>
+    <color name="starpay_calculator_button_font">@color/starpay_font_primary</color>
+
+    <color name="starpay_transaction_value_background">@color/starpay_background_card</color>
+    <color name="starpay_transaction_value_font">@color/starpay_font_darker</color>
+
+    <color name="starpay_radio_checked_background">@color/starpay_background_card</color>
+    <color name="starpay_radio_checked_border">@color/starpay_primary</color>
+    <color name="starpay_radio_checked_font">@color/starpay_primary</color>
+
+    <color name="starpay_radio_unchecked_background">@color/starpay_background_card</color>
+    <color name="starpay_radio_unchecked_border">@color/starpay_font_lightest</color>
+    <color name="starpay_radio_unchecked_font">@color/starpay_font_lightest</color>
+
+    <color name="starpay_radio_pressed_background">@color/starpay_radio_unchecked_font</color>
+    <color name="starpay_radio_pressed_border">@color/transparent</color>
+    <color name="starpay_radio_pressed_font">@color/starpay_radio_unchecked_background</color>
+</resources>

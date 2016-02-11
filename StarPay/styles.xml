@@ -1,0 +1,706 @@
+<resources>
+
+    <!--
+        styles.xml
+
+        Base de estilos para a UI. Veja também estilos alternativos para suportar diversos
+        tamanhos de tela (ex: values-small/styles.xml para telas pequenas).
+    -->
+
+    <!-- Base application theme. -->
+    <style name="Starpay" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/starpay_primary</item>
+        <item name="colorPrimaryDark">@color/starpay_notification_bar</item>
+        <item name="colorAccent">@color/starpay_secondary</item>
+
+        <item name="android:actionBarStyle">@style/Starpay.ActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/Starpay.ActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/starpay_header_font</item>
+
+        <!-- Removendo sombra da barra do header (action bar) -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Compatibilidade com a support library -->
+        <item name="actionBarStyle">@style/Starpay.ActionBar</item>
+        <item name="actionBarTabTextStyle">@style/Starpay.ActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/starpay_header_font</item>
+    </style>
+
+    <!-- ActionBar (Header da aplicação) -->
+    <style name="Starpay.ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/starpay_header_background</item>
+        <item name="android:titleTextStyle">@style/Starpay.ActionBarTitleText</item>
+        <item name="android:layout_gravity">center</item>
+        <!-- Support library -->
+        <item name="background">@color/starpay_header_background</item>
+        <item name="titleTextStyle">@style/Starpay.ActionBarTitleText</item>
+    </style>
+
+    <!-- Header: texto -->
+    <style name="Starpay.ActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/starpay_header_font</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Header: texto das abas (não utilizado por enquanto). -->
+    <style name="Starpay.ActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/starpay_header_font</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="Starpay.Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/starpay_background</item>
+    </style>
+    <style name="Starpay.Background.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Starpay.Botao">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/starpay_padding_botao</item>
+        <item name="android:paddingBottom">@dimen/starpay_padding_botao</item>
+        <item name="android:paddingLeft">@dimen/starpay_padding_botao</item>
+        <item name="android:paddingRight">@dimen/starpay_padding_botao</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/starpay_button_default</item>
+        <item name="android:textColor">@drawable/starpay_button_text</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Starpay.Botao.Gone">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Starpay.Botao.Login">
+        <item name="android:textColor">@drawable/starpay_button_text_light</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Starpay.Botao.Transparente">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="Starpay.Botao.Transparente.Azul">
+        <item name="android:textColor">@drawable/starpay_button_text_accented</item>
+    </style>
+    <style name="Starpay.Botao.Transparente.Discreto">
+        <item name="android:textColor">@drawable/starpay_button_text_discreet</item>
+    </style>
+
+    <style name="Starpay.BotaoBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/starpay_side_margin</item>
+        <item name="android:paddingLeft">@dimen/starpay_side_margin</item>
+        <item name="android:paddingRight">@dimen/starpay_side_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Starpay.BotaoBackground.Antecipacao">
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Starpay.StatusSplashScreen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/starpay_font_alert</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Starpay.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:divider">@color/transparent</item>
+    </style>
+
+    <style name="Starpay.ListHeaderBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/starpay_header_listview_bg</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Starpay.ListHeaderIndicatorPlaceholder">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Starpay.ListHeaderContentBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="Starpay.ListHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/starpay_font_lighter</item>
+    </style>
+
+    <style name="Starpay.ListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/starpay_device_list_bg</item>
+    </style>
+    <style name="Starpay.ListItem.ItemBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="Starpay.ListItem.ItemImg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="Starpay.ListItem.InfoBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">1px</item>
+        <item name="android:layout_marginTop">1px</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="Starpay.ListItem.BluetoothDeviceId">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="Starpay.ListItem.Valor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="Starpay.ListItem.Data">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/starpay_font_lighter</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="Starpay.ListItem.IdTransacao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/starpay_font_lighter</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Starpay.ListItem.IdTransacao.Label">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/starpay_font_lightest</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="Starpay.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Starpay.Title.Background">
+        <item name="android:background">@drawable/left_border_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/starpay_title_left_border_height</item>
+    </style>
+
+    <style name="Starpay.Title.Text">
+        <item name="android:textColor">@color/starpay_title_font</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_title_marginLeft</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Starpay.Separador">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/starpay_tamanho_separador</item>
+        <item name="android:background">@color/starpay_background_accent</item>
+    </style>
+
+    <!-- Card -->
+
+    <style name="Starpay.Card">
+    </style>
+    <style name="Starpay.Card.Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/starpay_background_card</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/starpay_card_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/starpay_card_margin_bottom</item>
+    </style>
+    <style name="Starpay.Card.Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/starpay_card_header_height</item>
+    </style>
+    <style name="Starpay.Card.Header.CloseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:src">@drawable/starpay_button_close_card</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/starpay_card_header_margin_right</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Starpay.Card.Header.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_header_margin_left</item>
+        <item name="android:textColor">@color/starpay_font_lighter</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="Starpay.Card.Header.Icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_header_margin_right</item>
+    </style>
+
+    <style name="Starpay.Card.Body">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Starpay.Card.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Starpay.Card.Title.Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/starpay_title_left_border_height</item>
+        <item name="android:background">@drawable/left_border_title</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <style name="Starpay.Card.Title.Text">
+        <item name="android:textColor">@color/starpay_title_font</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_header_margin_left</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="Starpay.Card.Title.Text.NoCaps">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Starpay.Card.Subtitle">
+    </style>
+    <style name="Starpay.Card.Subtitle.Text">
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_header_margin_left</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Starpay.Card.Subtitle.Text.NoCaps">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Starpay.Card.Subsubtitle" parent="Starpay.Card.Subtitle.Text.NoCaps">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Starpay.Card.Data">
+    </style>
+    <style name="Starpay.Card.Data.ItemGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_espacamento_interno_pequeno</item>
+    </style>
+    <style name="Starpay.Card.Data.Text">
+        <item name="android:textColor">@color/starpay_title_font</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_header_margin_left</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Starpay.Card.Data.Text.Small">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="Starpay.Card.Data.Text.Medium">
+        <item name="android:textSize">28dp</item>
+    </style>
+    <style name="Starpay.Card.Data.Text.Big">
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="Starpay.Card.Data.Text.Huge">
+        <item name="android:textSize">40dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Starpay.Card.Footer">
+    </style>
+    <style name="Starpay.Card.Footer.BackgroundBotao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/starpay_card_button_height</item>
+        <item name="android:layout_marginBottom">@dimen/starpay_card_button_margin_bottom</item>
+    </style>
+    <style name="Starpay.Card.Footer.Botao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/starpay_card_button_height</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/starpay_button_default</item>
+        <item name="android:textColor">@drawable/starpay_button_text_light</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_button_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/starpay_card_button_margin_right</item>
+    </style>
+
+    <!-- -->
+    <style name="Starpay.Card.Resultado">
+    </style>
+    <style name="Starpay.Card.Resultado.Title">
+    </style>
+    <style name="Starpay.Card.Resultado.Title.Background.Sucesso" parent="Starpay.Card.Title.Background">
+        <item name="android:background">@drawable/left_border_sucesso</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Title.Background.Erro" parent="Starpay.Card.Title.Background">
+        <item name="android:background">@drawable/left_border_erro</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Title.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_resultado_margin_left</item>
+        <item name="android:textSize">32dp</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Title.Text.Successo">
+        <item name="android:textColor">@color/starpay_font_success</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Title.Text.Erro">
+        <item name="android:textColor">@color/starpay_font_error</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Valor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_resultado_margin_left</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">@color/starpay_font_success</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Data.Text" parent="Starpay.Card.Data.Text">
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_resultado_margin_left</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Data.Text.Sucesso">
+        <item name="android:textColor">@color/starpay_font_success</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Data.Text.Erro">
+        <item name="android:textColor">@color/starpay_font_error</item>
+    </style>
+
+    <style name="Starpay.Card.Resultado.Data.Title" parent="Starpay.Card.Subtitle.Text">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_resultado_margin_left</item>
+    </style>
+
+    <style name="Starpay.Card.Resultado.DataItemGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_espacamento_interno</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Starpay.Card.Resultado.Icone">
+        <item name="android:layout_width">@dimen/starpay_image_icon_size_huge</item>
+        <item name="android:layout_height">@dimen/starpay_image_icon_size_huge</item>
+        <item name="android:layout_marginLeft">@dimen/starpay_card_resultado_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_espacamento_interno_grande</item>
+        <item name="android:layout_marginBottom">@dimen/starpay_card_espacamento_interno_grande</item>
+    </style>
+
+    <style name="Starpay.Card.Resultado.Botao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/starpay_card_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Botao.Sucesso">
+        <item name="android:textColor">@drawable/starpay_button_text_success</item>
+    </style>
+    <style name="Starpay.Card.Resultado.Botao.Erro">
+        <item name="android:textColor">@drawable/starpay_button_text_error</item>
+    </style>
+
+    <!-- -->
+
+    <style name="Starpay.CardVelho">
+        <item name="android:layout_marginLeft">@dimen/starpay_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/starpay_side_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Starpay.CardVelho.Historico">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="Starpay.Login">
+    </style>
+    <style name="Starpay.Login.EditText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:ems">10</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:textColor">@color/starpay_font_secondary</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="Starpay.Login.ErrorText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/starpay_font_alert</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!-- -->
+
+    <style name="Starpay.MainMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Starpay.MainMenu.CardContent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Starpay.MainMenu.Card">
+        <item name="android:background">@drawable/starpay_round_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Starpay.BigIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">50dp</item>
+        <item name="android:maxHeight">50dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="Starpay.IconLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/starpay_font_primary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Starpay.Rodape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/starpay_footer_bg</item>
+        <item name="android:paddingTop">@dimen/starpay_padding_rodape</item>
+        <item name="android:paddingBottom">@dimen/starpay_padding_rodape</item>
+    </style>
+
+    <style name="Starpay.Rodape.Texto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/starpay_footer_font</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginBottom">@dimen/starpay_margin_bottom_rodape_texto</item>
+        <item name="android:textSize">@dimen/starpay_text_size_rodape_texto</item>
+    </style>
+
+    <style name="Starpay.Rodape.Texto.Versao">
+        <item name="android:textSize">@dimen/starpay_text_size_rodape_texto_versao</item>
+    </style>
+
+    <style name="Starpay.Extrato">
+    </style>
+    <style name="Starpay.Extrato.Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Starpay.Extrato.Header.Bg">
+        <item name="android:background">@color/starpay_header_background</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">@dimen/starpay_side_margin</item>
+        <item name="android:paddingLeft">70dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="Starpay.Extrato.Header.Text">
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">@color/starpay_header_font</item>
+    </style>
+    <style name="Starpay.Extrato.Header.Text.Label">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+    </style>
+
+    <style name="Starpay.Extrato.Footer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Starpay.Extrato.Footer.Bg">
+        <item name="android:background">@color/starpay_background_card</item>
+        <item name="android:paddingTop">@dimen/starpay_side_margin</item>
+    </style>
+
+    <style name="Starpay.Extrato.Buscando">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/starpay_font_lighter</item>
+    </style>
+    <style name="Starpay.Extrato.Buscando.NenhumResultado">
+        <item name="android:textColor">@color/starpay_font_alert</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Starpay.Extrato.Checkbox">
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:src">@drawable/checkbox</item>
+    </style>
+    <style name="Starpay.Extrato.Checkbox.Header">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">9dp</item>
+        <item name="android:paddingRight">9dp</item>
+    </style>
+
+    <style name="Starpay.Extrato.BotaoCard">
+    </style>
+    <style name="Starpay.Extrato.BotaoCard.Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:padding">@dimen/starpay_padding_botao_extrato</item>
+        <item name="android:background">@drawable/starpay_background_card</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Starpay.Extrato.BotaoCard.Texto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Starpay.Extrato.BotaoCard.Valor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/starpay_font_darker</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Starpay.Extrato.NenhumResultado">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/starpay_font_alert</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Starpay.ImageIcon">
+        <item name="android:layout_width">@dimen/starpay_image_icon_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="Starpay.ImageIcon.Larger">
+        <item name="android:layout_width">@dimen/starpay_image_icon_size_larger</item>
+    </style>
+
+    <style name="Starpay.Radio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/starpay_font_escura</item>
+        <item name="android:button">@drawable/starpay_radio_button</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+    <style name="Starpay.RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">@dimen/starpay_card_espacamento_interno</item>
+        <item name="android:layout_marginBottom">@dimen/starpay_card_espacamento_interno</item>
+    </style>
+
+    <style name="Starpay.Prompt">
+    </style>
+    <style name="Starpay.Prompt.Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>

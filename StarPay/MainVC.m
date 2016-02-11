@@ -9,6 +9,10 @@
 #import "MainVC.h"
 
 #import <Google/Analytics.h>
+@import CoreGraphics;
+
+
+
 
 @interface MainVC ()
 
@@ -53,6 +57,10 @@
         case 1:
             identifier = @"finalizarSessaoSegue";
             break;
+        
+        case 2:
+            identifier = @"homeSegue";
+            break;
     }
     
     return identifier;
@@ -61,11 +69,26 @@
     
 }
 
-- (NSIndexPath *)initialIndexPathForLeftMenu
+- (NSIndexPath *)initialIndexPathForRightMenu
 {
-    return [NSIndexPath indexPathForRow:0 inSection:0];
+    return [NSIndexPath indexPathForRow:2 inSection:0];
 }
 
+- (void)configureRightMenuButton:(UIButton *)button{
+    
+    CGRect frame = button.frame;
+    frame.origin = (CGPoint){0,0};
+    frame.size = (CGSize){30,30};
+    button.frame = frame;
+    
+    [button setImage:[UIImage imageNamed:@"swip"] forState:UIControlStateNormal];
+    
+}
 
+// Enabling Deepnes on right menu
+- (BOOL)deepnessForRightMenu
+{
+    return YES;
+}
 
 @end

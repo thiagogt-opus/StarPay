@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6536D0B1C656AA300B1CFA6 /* swip.png in Resources */ = {isa = PBXBuildFile; fileRef = B6536D0A1C656AA300B1CFA6 /* swip.png */; };
 		B6EC0D641C62BAF90089D205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D631C62BAF90089D205 /* main.m */; };
 		B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0D661C62BAF90089D205 /* AppDelegate.m */; };
 		B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0D6B1C62BAF90089D205 /* Main.storyboard */; };
@@ -41,6 +42,16 @@
 		B6EC0E251C64D7130089D205 /* transacao.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEC1C64D7130089D205 /* transacao.png */; };
 		B6EC0E261C64D7130089D205 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DED1C64D7130089D205 /* x.png */; };
 		B6EC0E271C64D7130089D205 /* x_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0DEE1C64D7130089D205 /* x_pressed.png */; };
+		B6EC0E321C64E1880089D205 /* FinalizarSessaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0E311C64E1880089D205 /* FinalizarSessaoViewController.m */; };
+		B6EC0E351C64E19A0089D205 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0E341C64E19A0089D205 /* HomeViewController.m */; };
+		B6EC0E381C64E1A80089D205 /* AlterarSenhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0E371C64E1A80089D205 /* AlterarSenhaViewController.m */; };
+		B6EC0E3E1C650DA40089D205 /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0E391C650DA40089D205 /* colors.xml */; };
+		B6EC0E3F1C650DA40089D205 /* dimens.xml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0E3A1C650DA40089D205 /* dimens.xml */; };
+		B6EC0E401C650DA40089D205 /* ids.xml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0E3B1C650DA40089D205 /* ids.xml */; };
+		B6EC0E411C650DA40089D205 /* strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0E3C1C650DA40089D205 /* strings.xml */; };
+		B6EC0E421C650DA40089D205 /* styles.xml in Resources */ = {isa = PBXBuildFile; fileRef = B6EC0E3D1C650DA40089D205 /* styles.xml */; };
+		B6EC0E461C654E6F0089D205 /* ColorStarPay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0E451C654E6F0089D205 /* ColorStarPay.m */; };
+		B6EC0E4A1C65679F0089D205 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC0E491C65679F0089D205 /* CircleButton.m */; };
 		EF1960292C695F1A13D98A65 /* libPods-StarPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +76,7 @@
 		51BB445E2B02B896A7813FF2 /* Pods-StarPay.calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.calabash.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.calabash.xcconfig"; sourceTree = "<group>"; };
 		9AD6E8C7773034AACE0F6B39 /* Pods-StarPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.debug.xcconfig"; sourceTree = "<group>"; };
 		AB7F8F388AD0C9DB24538773 /* libPods-StarPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6536D0A1C656AA300B1CFA6 /* swip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swip.png; path = drawable/swip.png; sourceTree = "<group>"; };
 		B6EC0D5F1C62BAF90089D205 /* StarPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EC0D631C62BAF90089D205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6EC0D651C62BAF90089D205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +119,21 @@
 		B6EC0DEC1C64D7130089D205 /* transacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transacao.png; path = drawable/transacao.png; sourceTree = "<group>"; };
 		B6EC0DED1C64D7130089D205 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = drawable/x.png; sourceTree = "<group>"; };
 		B6EC0DEE1C64D7130089D205 /* x_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x_pressed.png; path = drawable/x_pressed.png; sourceTree = "<group>"; };
+		B6EC0E301C64E1880089D205 /* FinalizarSessaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalizarSessaoViewController.h; sourceTree = "<group>"; };
+		B6EC0E311C64E1880089D205 /* FinalizarSessaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalizarSessaoViewController.m; sourceTree = "<group>"; };
+		B6EC0E331C64E19A0089D205 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B6EC0E341C64E19A0089D205 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B6EC0E361C64E1A80089D205 /* AlterarSenhaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlterarSenhaViewController.h; sourceTree = "<group>"; };
+		B6EC0E371C64E1A80089D205 /* AlterarSenhaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlterarSenhaViewController.m; sourceTree = "<group>"; };
+		B6EC0E391C650DA40089D205 /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
+		B6EC0E3A1C650DA40089D205 /* dimens.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dimens.xml; sourceTree = "<group>"; };
+		B6EC0E3B1C650DA40089D205 /* ids.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ids.xml; sourceTree = "<group>"; };
+		B6EC0E3C1C650DA40089D205 /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
+		B6EC0E3D1C650DA40089D205 /* styles.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = styles.xml; sourceTree = "<group>"; };
+		B6EC0E441C654E6F0089D205 /* ColorStarPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorStarPay.h; sourceTree = "<group>"; };
+		B6EC0E451C654E6F0089D205 /* ColorStarPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorStarPay.m; sourceTree = "<group>"; };
+		B6EC0E481C65679F0089D205 /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		B6EC0E491C65679F0089D205 /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
 		CD4DBC32B2AFDBD25A623EDB /* Pods-StarPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarPay/Pods-StarPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +220,7 @@
 		B6EC0D621C62BAF90089D205 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC0E431C650DAB0089D205 /* StarPay_style_pattern */,
 				B6EC0D6E1C62BAF90089D205 /* Assets.xcassets */,
 				B6EC0D731C62BAF90089D205 /* Info.plist */,
 				B6EC0D701C62BAF90089D205 /* LaunchScreen.storyboard */,
@@ -225,6 +253,12 @@
 			children = (
 				B6EC0DBD1C64BF550089D205 /* MainVC.h */,
 				B6EC0DBE1C64BF550089D205 /* MainVC.m */,
+				B6EC0E301C64E1880089D205 /* FinalizarSessaoViewController.h */,
+				B6EC0E311C64E1880089D205 /* FinalizarSessaoViewController.m */,
+				B6EC0E331C64E19A0089D205 /* HomeViewController.h */,
+				B6EC0E341C64E19A0089D205 /* HomeViewController.m */,
+				B6EC0E361C64E1A80089D205 /* AlterarSenhaViewController.h */,
+				B6EC0E371C64E1A80089D205 /* AlterarSenhaViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +266,7 @@
 		B6EC0DC01C64D7130089D205 /* imagens */ = {
 			isa = PBXGroup;
 			children = (
+				B6536D0A1C656AA300B1CFA6 /* swip.png */,
 				B6EC0DC21C64D7130089D205 /* aprovada.png */,
 				B6EC0DC31C64D7130089D205 /* bang.png */,
 				B6EC0DC41C64D7130089D205 /* bluetooth.png */,
@@ -259,6 +294,30 @@
 			);
 			name = imagens;
 			path = StarPay/imagens;
+			sourceTree = "<group>";
+		};
+		B6EC0E431C650DAB0089D205 /* StarPay_style_pattern */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0E441C654E6F0089D205 /* ColorStarPay.h */,
+				B6EC0E451C654E6F0089D205 /* ColorStarPay.m */,
+				B6EC0E481C65679F0089D205 /* CircleButton.h */,
+				B6EC0E491C65679F0089D205 /* CircleButton.m */,
+				B6EC0E471C655A5D0089D205 /* ref */,
+			);
+			name = StarPay_style_pattern;
+			sourceTree = "<group>";
+		};
+		B6EC0E471C655A5D0089D205 /* ref */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC0E391C650DA40089D205 /* colors.xml */,
+				B6EC0E3A1C650DA40089D205 /* dimens.xml */,
+				B6EC0E3B1C650DA40089D205 /* ids.xml */,
+				B6EC0E3C1C650DA40089D205 /* strings.xml */,
+				B6EC0E3D1C650DA40089D205 /* styles.xml */,
+			);
+			name = ref;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,12 +428,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6EC0E031C64D7130089D205 /* credito.png in Resources */,
+				B6536D0B1C656AA300B1CFA6 /* swip.png in Resources */,
 				B6EC0E011C64D7130089D205 /* checkbox_checked.png in Resources */,
+				B6EC0E411C650DA40089D205 /* strings.xml in Resources */,
 				B6EC0E201C64D7130089D205 /* starpay_logo.png in Resources */,
 				B6EC0E071C64D7130089D205 /* home.png in Resources */,
 				B6EC0D721C62BAF90089D205 /* LaunchScreen.storyboard in Resources */,
 				B6EC0E051C64D7130089D205 /* erro.png in Resources */,
+				B6EC0E401C650DA40089D205 /* ids.xml in Resources */,
 				B6EC0D6F1C62BAF90089D205 /* Assets.xcassets in Resources */,
+				B6EC0E421C650DA40089D205 /* styles.xml in Resources */,
 				B6EC0E231C64D7130089D205 /* sucesso.png in Resources */,
 				B6EC0E0C1C64D7130089D205 /* pagamento.png in Resources */,
 				B6EC0DFE1C64D7130089D205 /* cartao.png in Resources */,
@@ -393,10 +456,12 @@
 				B6EC0D961C62C14E0089D205 /* .travis.yml in Resources */,
 				B6EC0E101C64D7130089D205 /* radio_button_checked.png in Resources */,
 				B6EC0E111C64D7130089D205 /* seta_amarela.png in Resources */,
+				B6EC0E3E1C650DA40089D205 /* colors.xml in Resources */,
 				B6EC0DFC1C64D7130089D205 /* bang.png in Resources */,
 				B6EC0DFD1C64D7130089D205 /* bluetooth.png in Resources */,
 				B6EC0E261C64D7130089D205 /* x.png in Resources */,
 				B6EC0D6D1C62BAF90089D205 /* Main.storyboard in Resources */,
+				B6EC0E3F1C650DA40089D205 /* dimens.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +536,12 @@
 			files = (
 				B6EC0DBF1C64BF550089D205 /* MainVC.m in Sources */,
 				B6EC0D671C62BAF90089D205 /* AppDelegate.m in Sources */,
+				B6EC0E381C64E1A80089D205 /* AlterarSenhaViewController.m in Sources */,
 				B6EC0D641C62BAF90089D205 /* main.m in Sources */,
+				B6EC0E351C64E19A0089D205 /* HomeViewController.m in Sources */,
+				B6EC0E461C654E6F0089D205 /* ColorStarPay.m in Sources */,
+				B6EC0E321C64E1880089D205 /* FinalizarSessaoViewController.m in Sources */,
+				B6EC0E4A1C65679F0089D205 /* CircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
